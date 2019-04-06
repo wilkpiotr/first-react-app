@@ -1,0 +1,75 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.Italic { 
+  font-style: italic;
+}
+
+.container {
+  margin-top: 20px;
+  font-style: bold;
+  font-size: large;
+}
+
+.insider {
+  display: inline;
+  background-color: blue;
+  border-radius: 50%;
+  color: aliceblue;
+  padding: 2px 10px;
+}
+
+.box {
+  border: 3px dotted pink;
+  padding: 15px;
+}
+
+.important {
+  border: 3px dashed blue;
+  padding: 10px;
+  background: url('http://icons.iconarchive.com/icons/custom-icon-design/mono-general-1/48/alert-icon.png') no-repeat left center
+}
+
+table, tr, td {
+  border: 1px solid green;
+  border-collapse: collapse;
+  padding: 5px;
+}
+table {
+  margin-left: 45vw;
+  margin-bottom: 10px;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
